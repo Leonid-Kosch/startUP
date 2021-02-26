@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+    nav {
+        position: static;
+    }
+    header {
+        padding: 100px 0 40px 0;
+    }
+    .company {
+        padding: 0 10px 0 10px;
+    }
+    .company img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 1287px) {
+    ul {
+        margin: 20px 0 20px 0;
+    }
+}

@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+nav a {
+    padding: 20px 40px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    transition: all 0.7s;
+}
+nav a:hover {
+    background: rgb(173, 173, 173);
+    transition: all 0.5s;
+}
+header {
+    text-align: center;
+    padding: 250px 0;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    color: white;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    padding: 12px 24px;
+    display: inline-block;
+}
+section {
+    padding: 40px 0;
+}
+.company {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.company img {
+    float: right;
+}
+.company p {
+    text-align: justify ;
+}
+.team {
+    text-align: center; 
+}
+.team__cart {
+    border: solid white 2px;
+    box-shadow: 0 0 5px;
+    display: inline-block;
+    margin: 20px 10px;
+    width: 20%;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    min-width: 300px;
+}
+.team__cart img {
+    width: 100%;
+    border-radius: 10px;
+}
+.post {
+    color: gray;
+}
+.team__cart a {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+    background: rgb(60, 168, 28);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px rgb(60, 168, 28);
+    transition: all 0.7s;
+}
+.team__cart a:hover {
+    background: white;
+    color: rgb(60, 168, 28);
+    transition: all 0.5s;
+}
+.buy__tariff {
+    text-align: center;
+    background: rgb(139, 139, 139);
+}
+.buy__tariff h2 {
+    color: white;
+}
+.pay__us {
+    color: white;
+}
+.name {
+    background: black;
+    color: white;
+    padding: 32px 0 ;
+    font-size: 24px;
+}
+.name__pro {
+    background: rgb(26, 59, 148);
+    color: white;
+    padding: 48px 0;
+    font-size: 26px ;
+}
+ul {
+    background: white;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0;
+    width: 30%;
+    vertical-align: middle;
+    box-shadow: 0 0 10px 0 white ;
+    min-width: 300px;
+}
+li {
+    border-bottom:  solid 1px gray;
+    padding: 16px 0;
+}
+.order  {
+    background: rgb(192, 192, 192);
+}
+.order a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    background: black;
+    border-radius: 10px;
+    margin: 16px auto;
+    border: solid 1px black;
+    transition: all 0.7s;
+}
+.order a:hover {
+    color: black;
+    background:transparent;
+    transition: all 0.5s;
+}
+.feedback {
+    background: rgb(240, 239, 239);
+    text-align: center;
+    background-image: linear-gradient(to bottom left, rgb(5, 240, 83), rgb(27, 234, 78), rgb(49, 227, 74), rgb(70, 221, 69), rgb(92, 215, 64), rgb(114, 208, 60), rgb(136, 202, 55), rgb(158, 195, 51), rgb(180, 189, 46), rgb(201, 183, 41), rgb(223, 176, 37), rgb(245, 170, 32));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback__info {
+    text-align: left;
+    margin: 10px 0 10px 5%;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: left center;
+    padding: 0 0 0 30px;
+}
+.feedback__info_adres {
+    background-image: url(../img/address.png);
+}
+.feedback__info_tel {
+    background-image: url(../img/phone.png);
+}
+.feedback__info_mail {
+    background-image: url(../img/mail.png);
+}
+.feedback form {
+    background: white;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px;
+    background-image: linear-gradient(to top right, rgb(5, 240, 83), rgb(27, 234, 78), rgb(49, 227, 74), rgb(70, 221, 69), rgb(92, 215, 64), rgb(114, 208, 60), rgb(136, 202, 55), rgb(158, 195, 51), rgb(180, 189, 46), rgb(201, 183, 41), rgb(223, 176, 37), rgb(245, 170, 32));
+    width: 30%;
+    min-width: 300px;
+    margin: 30px 0;
+}
+.feedback input {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: solid rgb(179, 178, 178) 2px;
+    transition: all 0.7s;
+    width: 40%;
+    min-width: 270px;
+}
+.feedback input:focus {
+    box-shadow: 0 0 10px 3px #1ab9;
+    transition: all 0.5s;
+}
+.feedback button {
+    background-image: radial-gradient(rgb(5, 240, 83), rgb(27, 234, 78), rgb(49, 227, 74), rgb(70, 221, 69), rgb(92, 215, 64), rgb(114, 208, 60), rgb(136, 202, 55), rgb(158, 195, 51), rgb(180, 189, 46), rgb(201, 183, 41), rgb(223, 176, 37), rgb(245, 170, 32));
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: solid 1px orange;
+    transition: all 0.7s;
+    width: 40%;
+    min-width: 270px;
+    
+}
+.feedback button:hover {
+    background-image: radial-gradient(rgb(5, 240, 83), rgb(53, 226, 73), rgb(101, 212, 63), rgb(149, 198, 52), rgb(197, 184, 42), rgb(245, 170, 32), rgb(210, 178, 61), rgb(175, 185, 90), rgb(140, 193, 120), rgb(105, 201, 149), rgb(70, 208, 178), rgb(35, 216, 207));
+    color: white;
+    transition: all 0.7s;
+}
+footer {
+    background: black;
+    padding: 40px 10px 40px 10px; 
+    color: white;
+    text-align: center;
+}
